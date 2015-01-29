@@ -1,0 +1,240 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+	/*==========  Non-Mobile First Method  ==========*/
+ 
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px){
+ 		.panel-title {
+			& .row {
+				& .col-md-1 {
+				}
+				& .col-md-2 {
+					width: 19%;
+					& i {
+					}
+				}
+				& .col-md-8 {
+					width: 66%;
+					&.editable {
+						width: 
+					}
+				}
+			}
+		}
+		.panel-body {
+			& .mask {
+				& img {
+					top: -40px !important;
+				}
+			}
+		}
+	}
+ 
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 769px){
+		.panel-title {
+			& .row {
+				& .col-md-1 {
+					width: 10%;
+					padding:0;
+					float: left;
+				}
+				& .col-md-2 {
+					width: 25%;
+					padding: 0;
+					& i {
+					}
+				}
+				& .col-md-8 {
+					width: 62%;
+					padding: 0;
+					float: left;
+					&.editable {
+						margin-left: 0 !important;
+					}
+				}
+			}
+		}
+		.panel-body {
+			& .mask {
+				& img {
+					top: -10px !important;
+				}
+			}
+		}
+		#sb-container {
+			& #sb-wrapper-inner {				
+				& #sb-body, #sb-loading {
+					& #sb-player {
+						& .row {
+							& .col-md-6.col-md-offset-3{
+							width: 100%;
+							}
+							& .col-md-1 {
+								width: 9ft;
+								margin-left: 20px;
+							}
+							& .col-md-6 {
+								width: 70%;
+								float: left;
+								margin-top: -7px;
+							}
+							&.cabecera {	
+								& h2 {
+									font-size: 2.5em;
+									margin: 0;
+									padding-top: 10px;
+								}							
+							}
+						}
+					} 
+				}
+			}
+		}
+	}
+ 
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 481px){
+		.jumbotron {
+ 			.container {
+				& #ruedaColor {
+					width: 8em;
+				}
+			}
+		}
+		.panel-title {
+			& .row {
+				& .col-md-1 {
+					width: 15%;
+					float: left;
+				}
+				& .col-md-2 {
+					width: 16%;
+					margin-top: 2px;
+				}
+				& .col-md-8 {
+					width: 69%;
+					float: left;
+					&.editable {
+						padding-left: 7px !important;
+						margin-left: 28px !important;
+						width: 197px;
+					}
+				}
+			}
+		}	
+		#sb-container {
+			& #sb-wrapper-inner {				
+				& #sb-body, #sb-loading {
+					& #sb-player {
+						& .row {
+							& .col-md-6.col-md-offset-3{
+							width: 100%;
+							}
+							& .col-md-1 {
+								width: 23%;
+								float: left;
+								margin-left: 15px;
+							}
+							& .col-md-6 {
+								width: 70%;
+								float: left;
+								margin-top: -7px;
+							}
+							&.cabecera {	
+								& h2 {
+									font-size: 1.5em;
+									margin: 0;
+									padding-top: 10px;
+								}							
+							}
+						}
+					} 
+				}
+			}
+		}
+	}
+ 
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px){
+		.jumbotron {
+ 			.container {
+ 				height: 5em;
+				position: relative;
+				top: -85px;
+				left: -25px;
+				& #ruedaColor {
+					width: 6em;
+					top: 76px;
+					right: -65px;
+				}
+			}
+		}
+ 		.panel-title {
+ 			& .row {
+ 				margin-top: 10px;
+				& .col-md-1 {
+					width: 10%;
+					float: left;
+					padding-right: 0;
+					padding-left: 5px;
+				}
+				& .col-md-2 {
+					width: 10%;
+					margin-top: -37px;
+					& i {
+						margin-top: 5px;
+					}
+				}
+				& .col-md-8 {
+					&.editable {
+						padding-left: 7px !important;
+						margin-left: 28px !important;
+						width: 197px;
+					}
+					width: 86%;
+					padding-right: 0;
+					padding-left: 8px;
+				}
+			}
+		}
+		.panel-body {
+			& .mask {
+				& img {
+					top: -40px;
+				}
+			}
+		}
+		#sb-container {
+			& #sb-wrapper-inner {				
+				& #sb-body, #sb-loading {
+					& #sb-player {
+						& .row {
+							& .col-md-6.col-md-offset-3{
+							width: 100%;
+							}
+							& .col-md-1 {
+								width: 23%;
+								float: left;
+								margin-left: 15px;
+							}
+							& .col-md-6 {
+								width: 70%;
+								float: left;
+								margin-top: -12px;
+							}
+							&.cabecera {	
+								& h2 {
+									font-size: 1.5em;
+									margin: 0;
+									padding-top: 10px;
+								}							
+							}
+						}
+					} 
+				}
+			}
+		}	
+	}

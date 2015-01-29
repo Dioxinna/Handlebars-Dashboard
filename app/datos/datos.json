@@ -1,0 +1,43 @@
+[
+    [
+        {
+            "id": "1",
+            "datos": "user1.json",
+            "name": "Fernando Jiménez Serrano",
+            "open": "",
+            "disable": ""
+        },
+        {
+            "id": "2",
+            "datos": "user2.json",
+            "name": "Jorge Ramón Alarcón",
+            "open": "open",
+            "disable": "disabled"
+        }
+    ],
+    [
+        {
+            "id": "3",
+            "datos": "user3.json",
+            "name": "Silvia",
+            "open": "open",
+            "disable": ""
+        },
+        {
+            "id": "4",
+            "datos": "user4.json",
+            "name": "Pableras",
+            "open": "",
+            "disable": "disabled"
+        }
+    ],
+    [
+        {
+            "id": "5",
+            "datos": "user5.json",
+            "name": "Giorgio",
+            "open": "",
+            "disable": "disabled"
+        }
+    ]
+]

@@ -1,0 +1,42 @@
+{{#each this}}
+	<div class="{{#tamanioCol ../this.length}}{{/tamanioCol}} column ">
+	{{#each this}}	
+		<div id="{{id}}" class="{{disable}} panel panel-default portlet ">
+			
+				<div class="panel-heading ">
+					<div class="panel-title">
+					<div class="row">
+						<div class="col-md-1">
+							<a class="{{open}} collapsed" data-toggle="collapse" data-parent="#accordion" data-url="{{datos}}" href="#collapse{{id}}">
+								<i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i>
+								<i style="display:none" class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i>
+							</a>	
+						</div>
+						<div id="nameEdit" class="col-md-8">{{name}}</div>
+						<div class="col-md-2 pull-right">
+							<i class="editableButton glyphicon glyphicon-pencil pull-right" aria-hidden="true"></i>
+							<i class="refreshButton glyphicon glyphicon-refresh pull-right" aria-hidden="true"></i>
+						</div>
+					</div>
+						
+					</div>
+				</div>
+				<div class="loader hidden">
+					<div class="green"></div>
+					<div class="red"></div>
+					<div class="blue"></div>
+					<div class="yellow"></div>
+				</div>	
+
+			
+			
+			<div id="collapse{{id}}" class="panel-collapse collapse">
+				<div class="panel-body">									
+				</div>
+			</div>
+		</div>
+		{{/each}}			
+	</div>
+{{/each}}
+
+
